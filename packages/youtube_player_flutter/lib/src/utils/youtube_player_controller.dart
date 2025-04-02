@@ -315,7 +315,6 @@ class YoutubePlayerController extends ValueNotifier<YoutubePlayerValue> {
 
   @override
   void dispose() {
-    value.webViewController?.dispose();
     super.dispose();
   }
 }
